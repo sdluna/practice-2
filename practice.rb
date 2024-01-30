@@ -27,3 +27,13 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+
+ben_balance = blockchain[0]["amount"] - blockchain[2]["amount"] - blockchain[5]["amount"] + blockchain[6]["amount"]
+brian_balance = blockchain[1]["amount"] - blockchain[3]["amount"]
+evan_balance = blockchain[2]["amount"] -  blockchain[4]["amount"] + blockchain[7]["amount"]
+anthony_balance = blockchain[3]["amount"] + blockchain[4]["amount"] + blockchain[5]["amount"] - blockchain[6]["amount"] -blockchain[7]["amount"]
+
+puts "Ben's KelloggCoin balance is #{ben_balance}"
+puts "Brian's KelloggCoin balance is #{brian_balance}"
+puts "Evan's KelloggCoin balance is #{evan_balance}"
+puts "Anthony's KelloggCoin balance is #{anthony_balance}"
